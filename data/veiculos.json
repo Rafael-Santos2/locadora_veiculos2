@@ -1,0 +1,78 @@
+[
+    [
+        {
+            "tipo": "Carro",
+            "modelo": "BMW",
+            "placa": "GWO5J47",
+            "disponivel": false
+        },
+        {
+            "tipo": "Moto",
+            "modelo": "BMW 1200",
+            "placa": "GWOJ47",
+            "disponivel": true
+        },
+        {
+            "tipo": "Carro",
+            "modelo": "AUDI",
+            "placa": "KFB1S11",
+            "disponivel": false
+        },
+        {
+            "tipo": "Carro",
+            "modelo": "Mercedes-Benz C180",
+            "placa": "XYZ4P89",
+            "disponivel": true
+        },
+        {
+            "tipo": "Carro",
+            "modelo": "Toyota Corolla",
+            "placa": "ABC2D34",
+            "disponivel": true
+        },
+        {
+            "tipo": "Carro",
+            "modelo": "Honda Civic",
+            "placa": "JKL7M65",
+            "disponivel": false
+        },
+        {
+            "tipo": "Carro",
+            "modelo": "Ford Fusion",
+            "placa": "PQR3H22",
+            "disponivel": true
+        },
+        {
+            "tipo": "Moto",
+            "modelo": "Honda CB 500",
+            "placa": "MNO5X78",
+            "disponivel": false
+        },
+        {
+            "tipo": "Moto",
+            "modelo": "Yamaha MT-07",
+            "placa": "TUV6Y56",
+            "disponivel": true
+        },
+        {
+            "tipo": "Moto",
+            "modelo": "Kawasaki Ninja 400",
+            "placa": "GHJ8B90",
+            "disponivel": true
+        },
+        {
+            "tipo": "Moto",
+            "modelo": "Ducati Monster",
+            "placa": "DEF1C23",
+            "disponivel": false
+        },
+        {
+            "tipo": "Moto",
+            "modelo": "Harley-Davidson Iron 883",
+            "placa": "WXY9F12",
+            "disponivel": true
+        }
+    ]
+    
+
+]
