@@ -42,13 +42,13 @@ class Auth
     // Função para salvar os usuários no arquivo JSON
     private function salvarUsuarios(): void
     {
-        $dir = dirname(ARQUIVO_USUARIO);
+        $dir = dirname(ARQUIVO_USUARIOS);
 
         if (!is_dir($dir)) {
             mkdir($dir, 0777, true); // Cria o diretório se não existir
         }
         // Salva os usuários no arquivo JSON
-        file_put_contents(ARQUIVO_USUARIO, json_encode($this->usuarios, JSON_PRETTY_PRINT));
+        file_put_contents(ARQUIVO_USUARIOS, json_encode($this->usuarios, JSON_PRETTY_PRINT));
     }
 
     // Método para login de usuario
