@@ -102,11 +102,12 @@ class Locadora
     }
 
     // Devolver o veiculo
-    public function devolverVeiculo(string $placa): string{
+    public function devolverVeiculo(string $placa): string
+    {
         // Percorrer a lista de veiculos
         foreach ($this->veiculos as $veiculo) {
             // Verifica se o veiculo existe
-            if ($veiculo->getPlaca() === $placa && !$veiculo->isDisponivel()){
+            if ($veiculo->getPlaca() === $placa && !$veiculo->isDisponivel()) {
                 // Disponibilizar o veiculo
                 $mensagem = $veiculo->devolver();
 
@@ -125,5 +126,11 @@ class Locadora
     }
 
     // Calcular previsão do valor
-
+    public function calcularPrevisaoAluguel(string $tipo, int $dias): float
+    {
+        if ($tipo == 'Carro') {
+            return (new Carro('', ''))->calcularAluguel($dias);
+        }
+        return (new Moto('', ''))->calcularAluguel($dias);
+    }
 }
