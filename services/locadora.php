@@ -119,6 +119,10 @@ class Locadora
     }
 
     // Retorna a lista de veiculos
+    public function listarVeiculos(): array
+    {
+        return $this->veiculos;
+    }
 
     // Calcular previsão do valor
 
